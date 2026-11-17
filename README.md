@@ -92,12 +92,12 @@ Testing:
 
 ## Getting started
 
-Requires Python 3.10+.
+Requires Python 3.10+. On macOS use `python3` (check with `python3 --version`); if it is older than 3.10, run `brew install python`.
 
 ```bash
 git clone https://github.com/rickymwethera/medtrack.git
 cd medtrack
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 ```
